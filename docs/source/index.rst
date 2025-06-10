@@ -31,6 +31,7 @@ architectures with a particular focus on Echo State Networks (ESN).
 
     getting_started
     user_guide/index
+    architecture/index
     API reference <api/index>
     developer_guide/index
 
@@ -78,6 +79,27 @@ architectures with a particular focus on Echo State Networks (ESN).
             :expand:
 
             To the user guide
+
+    .. grid-item-card::
+        :class-card: intro-card
+        :shadow: md
+        :img-top: _static/api.svg
+        :class-img-top: dark-light
+
+        Architecture guide
+        ^^^^^^^^^^^^^^^^^^
+
+        Comprehensive architecture documentation with detailed system diagrams
+        and component interaction patterns.
+
+        +++
+
+        .. button-ref:: architecture
+            :color: secondary
+            :click-parent:
+            :expand:
+
+            To the architecture guide
 
     .. grid-item-card::
         :class-card: intro-card
