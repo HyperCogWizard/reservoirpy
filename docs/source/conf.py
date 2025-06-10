@@ -50,6 +50,16 @@ pygments_style = "sphinx"
 extensions = [
     "sphinx.ext.napoleon",
     "sphinx.ext.autodoc",
+    "sphinx.ext.doctest",
+    "sphinx.ext.linkcode",
+    "sphinx_copybutton",
+    "sphinx.ext.autosummary",
+    "sphinx_design",
+    "sphinx.ext.intersphinx",
+    "IPython.sphinxext.ipython_directive",
+    "IPython.sphinxext.ipython_console_highlighting",
+    "matplotlib.sphinxext.plot_directive",
+    "nbsphinx",
     "sphinxcontrib.mermaid",
 ]
 
@@ -101,21 +111,21 @@ exclude_patterns = []
 # html_favicon = "_static/rpy_logo_small.png"
 html_favicon = "_static/favicon.png"
 
-html_theme = "default"
+html_theme = "pydata_sphinx_theme"
 
-# html_sidebars = {"**": ["search-field", "sidebar-nav-bs"]}
+html_sidebars = {"**": ["search-field", "sidebar-nav-bs"]}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {
-#     "external_links": [],
-#     "github_url": "https://github.com/reservoirpy/reservoirpy",
-#     "logo": {
-#         "image_light": "_static/rpy_navbar_light.png",
-#         "image_dark": "_static/rpy_navbar_dark.png",
-#     },
-# }
+html_theme_options = {
+    "external_links": [],
+    "github_url": "https://github.com/reservoirpy/reservoirpy",
+    "logo": {
+        "image_light": "_static/rpy_navbar_light.png",
+        "image_dark": "_static/rpy_navbar_dark.png",
+    },
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
